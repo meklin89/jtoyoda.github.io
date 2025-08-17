@@ -48,13 +48,13 @@ function updateCurrentMap(segment)
     local CURRENT_ROOM = nil
     value = ReadU8(segment, 0x0048)
     --Tracker:FindObjectForCode("cur_map_id").CurrentStage = value
-    if MAP_VALUE[onmapscreen] then
+    if MAP_VALUE[value] then
         CURRENT_ROOM = MAP_VALUE[value]
         for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
             print(string.format("Updating ID %x to Tab %s",value,str))
             --Tracker:UiHint("ActivateTab", str)
         end
-        print(onmapscreen, "---", MAP_VALUE[value], "---", CURRENT_ROOM, "---", str)
+        print(value, "---", MAP_VALUE[value], "---", CURRENT_ROOM, "---", str)
     else
         print("overworld")
     end
