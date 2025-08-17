@@ -1,5 +1,5 @@
 -- Configuration --------------------------------------
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
 -------------------------------------------------------
 
 print("")
@@ -31,6 +31,7 @@ function ReadU8(segment, address)
         U8_READ_CACHE_ADDRESS = address
     end
     return U8_READ_CACHE
+    print(code, segment, address, flag)
 end
 
 function isInGame(segment)
