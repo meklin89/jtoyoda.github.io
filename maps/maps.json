@@ -1,14 +1,134 @@
 [
     {
-        "name": "locations",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/overworld.png"
-    },
-    {
         "name": "incentives",
         "location_size": 80,
         "location_border_thickness": 10,
-        "img": "images/overworld.png"
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "overworld",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "con_castle",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/concastle.png"
+    },
+    {
+        "name": "elfcastle",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/elfcastle.png"
+    },
+    {
+        "name": "nwcastle",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/nwcastle.png"
+    },
+    {
+        "name": "ordeals",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ordeals.png"
+    },
+    {
+        "name": "waterfall",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/waterfall.png"
+    },
+    {
+        "name": "dwarves",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/dwarves.png"
+    },
+    {
+        "name": "matoya",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/matoya.png"
+    },
+    {
+        "name": "sarda",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sarda.png"
+    },
+    {
+        "name": "cardia",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/cardia.png"
+    },
+    {
+        "name": "marshb1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/marshb1.png"
+    },
+    {
+        "name": "marshb3",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/marshb3.png"
+    },
+    {
+        "name": "ice1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ice1.png"
+    },
+    {
+        "name": "ice2",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ice2.png"
+    },
+    {
+        "name": "ice3",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ice3.png"
+    },
+    {
+        "name": "earth1f",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earth1f.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
     }
 ]
