@@ -1,5 +1,5 @@
 -- Configuration --------------------------------------
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
 -------------------------------------------------------
 
 print("")
@@ -45,7 +45,7 @@ function updateToggleItemFromByteAndFlag(segment, code, address, flag)
     if item then
         local value = ReadU8(segment, address)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print(item.Name, code, flag, value, address, segment)
+            print(item.Name, code, flag, value)
         end
 
         local flagTest = value & flag
@@ -63,7 +63,7 @@ function updateOrbFromByteAndFlag(segment, code, address, flag)
     if item then
         local value = ReadU8(segment, address)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print(item.Name, code, flag, value, address, segment)
+            print(item.Name, code, flag, value)
         end
 
         local flagTest = value & flag
@@ -349,7 +349,7 @@ function updateSectionSingleChestCountFromByteAndFlag(segment, locationRef, addr
         local value = ReadU8(segment, address)
         
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            --print(locationRef, value)
+            print(locationRef, value)
         end
   
         if (value & flag) ~= 0 then
@@ -380,7 +380,7 @@ function updateSectionMultipleChestCountFromByteAndFlag(segment, locationRef, ad
         for address,flag in pairs(addressTable) do
           local value = ReadU8(segment, address)
           if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            --print(locationRef, value)
+            print(locationRef, value)
           end
           if (value & flag) ~= 0 then
             chestsOpened = chestsOpened + 1
