@@ -29,10 +29,9 @@ function ReadU8(segment, address)
     if U8_READ_CACHE_ADDRESS ~= address then
         U8_READ_CACHE = segment:ReadUInt8(address)
         U8_READ_CACHE_ADDRESS = address
-        print(code, segment, address, flag)
+        print(segment, address)
     end
     return U8_READ_CACHE
-    
 end
 
 function isInGame(segment)
