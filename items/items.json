@@ -1,5 +1,12 @@
 [
     {
+        "name": "Current Map",
+        "type": "progressive",
+        "img": "",
+        "disabled_img": "",
+        "codes": "cur_map_id"
+    },
+    {
         "name": "Mystic Key",
         "type": "toggle",
         "img": "images/items/key.png",
@@ -282,4 +289,5 @@
         ]
     }
 ]
+
 
