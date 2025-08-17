@@ -29,7 +29,6 @@ function ReadU8(segment, address)
     if U8_READ_CACHE_ADDRESS ~= address then
         U8_READ_CACHE = segment:ReadUInt8(address)
         U8_READ_CACHE_ADDRESS = address
-        print(segment, address)
     end
     return U8_READ_CACHE
 end
@@ -64,7 +63,7 @@ function updateOrbFromByteAndFlag(segment, code, address, flag)
     if item then
         local value = ReadU8(segment, address)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print(item.Name, code, flag, value)
+            print(item.Name, code, flag, value, address, segment)
         end
 
         local flagTest = value & flag
@@ -350,7 +349,7 @@ function updateSectionSingleChestCountFromByteAndFlag(segment, locationRef, addr
         local value = ReadU8(segment, address)
         
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print(locationRef, value)
+            --print(locationRef, value)
         end
   
         if (value & flag) ~= 0 then
@@ -381,7 +380,7 @@ function updateSectionMultipleChestCountFromByteAndFlag(segment, locationRef, ad
         for address,flag in pairs(addressTable) do
           local value = ReadU8(segment, address)
           if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print(locationRef, value)
+            --print(locationRef, value)
           end
           if (value & flag) ~= 0 then
             chestsOpened = chestsOpened + 1
