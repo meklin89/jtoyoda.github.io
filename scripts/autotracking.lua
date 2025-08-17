@@ -1,3 +1,5 @@
+ScriptHost:LoadScript("scripts/mapValues.lua")
+
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 -------------------------------------------------------
@@ -41,15 +43,20 @@ function isInGame(segment)
 end
 
 function updateCurrentMap(segment)
-    local onmapscreen = ReadU8(segment, 0x0048)
-    --Tracker:FindObjectForCode("cur_map_id").CurrentStage = onmapscreen
+    InvalidateReadCaches()
+    local value = nil
+    local CURRENT_ROOM = nil
+    value = ReadU8(segment, 0x0048)
+    --Tracker:FindObjectForCode("cur_map_id").CurrentStage = value
     if MAP_VALUE[onmapscreen] then
-        CURRENT_ROOM = MAP_VALUE[onmapscreen]
+        CURRENT_ROOM = MAP_VALUE[value]
         for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
             print(string.format("Updating ID %x to Tab %s",value,str))
             --Tracker:UiHint("ActivateTab", str)
         end
-        print(string.format("Updating ID %x to Tab %s",value,CURRENT_ROOM))
+        print(onmapscreen, "---", MAP_VALUE[value], "---", CURRENT_ROOM, "---", str)
+    else
+        print("overworld")
     end
 end
 
