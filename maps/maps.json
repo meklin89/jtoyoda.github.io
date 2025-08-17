@@ -102,6 +102,60 @@
         "img": "images/maps/earth1f.png"
     },
     {
+        "name": "earth2f",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earth2f.png"
+    },
+    {
+        "name": "earth3f",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earth3f.png"
+    },
+    {
+        "name": "earth4f",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earth4f.png"
+    },
+    {
+        "name": "earth5f",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/earth5f.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
+        "name": "",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/.png"
+    },
+    {
         "name": "",
         "location_size": 24,
         "location_border_thickness": 3,
