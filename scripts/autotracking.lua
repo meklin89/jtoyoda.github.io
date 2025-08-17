@@ -44,19 +44,25 @@ end
 
 function updateCurrentMap(segment)
     InvalidateReadCaches()
-    local value = nil
-    local CURRENT_ROOM = nil
-    value = ReadU8(segment, 0x0048)
-    --Tracker:FindObjectForCode("cur_map_id").CurrentStage = value
-    if MAP_VALUE[value] then
-        CURRENT_ROOM = MAP_VALUE[value]
-        for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
-            print(string.format("Updating ID %x to Tab %s",value,str))
-            --Tracker:UiHint("ActivateTab", str)
+    local value = ReadU8(segment, 0x0048)
+    local mapValue = MAP_VALUE and MAP_VALUE[value]
+
+    if mapValue then
+        -- Split by '/' and process each map name/tab
+        for str in string.gmatch(mapValue, "([^/]+)") do
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                print(string.format("Updating ID %x to Tab %s", value, str))
+            end
+            -- Uncomment and use if needed:
+            -- Tracker:UiHint("ActivateTab", str)
         end
-        print(value, "---", MAP_VALUE[value], "---", CURRENT_ROOM, "---", str)
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print(string.format("Value: %x --- Map: %s", value, mapValue))
+        end
     else
-        print("overworld")
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print("Overworld or unknown map value: ", value)
+        end
     end
 end
 
