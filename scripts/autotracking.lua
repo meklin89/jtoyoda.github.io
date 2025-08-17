@@ -45,7 +45,7 @@ function updateToggleItemFromByteAndFlag(segment, code, address, flag)
     if item then
         local value = ReadU8(segment, address)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print(item.Name, code, flag, value)
+            print(item.Name, code, flag, value, address, segment)
         end
 
         local flagTest = value & flag
