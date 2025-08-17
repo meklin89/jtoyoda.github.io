@@ -40,6 +40,19 @@ function isInGame(segment)
   return A ~= 0x00 and B ~= 0x0B and B ~= 0x0C and not (A== 0xF2 and B == 0xF2 and C == 0xF2)
 end
 
+function updateCurrentMap(segment)
+    local onmapscreen = ReadU8(segment, 0x0048)
+    --Tracker:FindObjectForCode("cur_map_id").CurrentStage = onmapscreen
+    if MAP_VALUE[onmapscreen] then
+        CURRENT_ROOM = MAP_VALUE[onmapscreen]
+        for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
+            print(string.format("Updating ID %x to Tab %s",value,str))
+            --Tracker:UiHint("ActivateTab", str)
+        end
+        print(string.format("Updating ID %x to Tab %s",value,CURRENT_ROOM))
+    end
+end
+
 function updateToggleItemFromByteAndFlag(segment, code, address, flag)
     local item = Tracker:FindObjectForCode(code)
     if item then
@@ -415,11 +428,6 @@ function updateShardsFromMemorySegment(segment)
     end
 end
 
-function updateCurrentMap(segment)
-    local current_map = ReadU8(segment, 0x0048)
-    print("Map Value:", current_map)
-end
-
 function updateItemsFromMemorySegment(segment)
     if not isInGame(segment) then
         return false
@@ -460,6 +468,7 @@ function updateItemsFromMemorySegment(segment)
     if Tracker.ActiveVariantUID == "shardHunt" or Tracker.ActiveVariantUID == "shardHuntNoMap" or Tracker.ActiveVariantUID == "shardHuntNOverworld" or Tracker.ActiveVariantUID == "shardHuntNOverworldNoMap" then
       updateShardsFromMemorySegment(segment)
     end
+    updateCurrentMap(segment)
 end
 
 function updateLocationsFromMemorySegmentCorridor(segment)
