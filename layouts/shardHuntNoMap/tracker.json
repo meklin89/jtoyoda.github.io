@@ -1,41 +1,4 @@
 {
-    "shared_shard_hunt_grid_horizontal": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "item_height": 50,
-        "item_width": 100,
-        "rows": [
-            [ "shardsRequired" ],
-            [ "shards" ]
-        ]
-    },
-    "shared_shard_hunt_grid_vertical": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "item_height": 50,
-        "item_width": 100,
-        "rows": [
-            [ "shardsRequired" ],
-            [ "shards" ]
-        ]
-    },
-    "tracker_capture_item": {
-        "type": "container",
-        "content": {
-            "type": "itemgrid",
-            "h_alignment": "center",
-            "item_margin": "1,2",
-            "rows": [
-                [ "lute", "earthorb", "fireorb", "waterorb", "airorb" ],
-                [ "key", "rod", "oxyale", "chime", "cube" ],
-                [ "bridge", "ship", "canal", "canoe", "floater" ],
-                [ "adamant", "tnt", "crown", "crystal", "herb" ],
-                [ "garland", "ruby", "tail", "slab", "bottle" ]
-            ]
-        }
-    },
     "tracker_default": {
         "type": "container",
         "background": "#5f6393",
@@ -78,7 +41,7 @@
                         "type": "layout",
                         "h_alignment": "center",
                         "v_alignment": "center",
-                        "key": "shared_shard_hunt_grid_vertical"
+                        "key": "shared_shard_hunt_grid"
                     }
                 }
             ]
