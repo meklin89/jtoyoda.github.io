@@ -55,7 +55,7 @@
 								"style" : "wrap",
 								"h_alignment" : "stretch",
 								"v_alignment" : "stretch",
-								"orientation" : "vertical",
+								"orientation" : "horizontal",
 								"compact" : true
 							}
 						}
@@ -568,3 +568,4 @@
 		}
 	}
 }
+
