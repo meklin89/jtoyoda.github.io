@@ -312,7 +312,7 @@
         "img": "images/maps/tofrChaos.png"
     },
     {
-        "name": "titan",
+        "name": "titans",
         "location_size": 24,
         "location_border_thickness": 3,
         "img": "images/maps/titans.png"
