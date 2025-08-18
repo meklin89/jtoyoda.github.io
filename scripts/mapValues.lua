@@ -59,5 +59,5 @@ MAP_VALUE = {
 		[57] = "Fiend Dungeons/Temple of Fiends/ToFR Water",
 		[58] = "Fiend Dungeons/Temple of Fiends/ToFR Air",
 		[59] = "Fiend Dungeons/Temple of Fiends/ToFR Chaos",
-		[60] = "Other/Titans Tunne",
+		[60] = "Other/Titan's Tunnel",
 }
