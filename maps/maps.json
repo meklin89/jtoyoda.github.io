@@ -150,7 +150,7 @@
         "img": "images/maps/earthB5.png"
     },
     {
-        "name": " volcB1",
+        "name": "volcB1",
         "location_size": 24,
         "location_border_thickness": 3,
         "img": "images/maps/volcB1.png"
@@ -315,6 +315,6 @@
         "name": "titan",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/titan.png"
+        "img": "images/maps/titans.png"
     }
 ]
