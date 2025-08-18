@@ -56,7 +56,7 @@
                                 "dock": "top",
                                 "content": {
                                     "type": "layout",
-                                    "key": "shared_shard_hunt_grid_vertical"
+                                    "key": "shared_shard_hunt_grid"
                                 }
                             }
                         ]
