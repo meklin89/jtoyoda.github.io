@@ -57,9 +57,8 @@ function updateCurrentMap(segment)
         for str in string.gmatch(mapValue, "([^/]+)") do
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
                 print(string.format("Updating ID %x to Tab %s", value, str))
+                Tracker:UiHint("ActivateTab", str)
             end
-            -- Uncomment and use if needed:
-            -- Tracker:UiHint("ActivateTab", str)
         end
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
             print(string.format("Value: %x --- Map: %s", value, mapValue))
