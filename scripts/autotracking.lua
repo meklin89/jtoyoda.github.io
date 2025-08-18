@@ -44,10 +44,15 @@ end
 
 function updateCurrentMap(segment)
     InvalidateReadCaches()
-    local value = ReadU8(segment, 0x0048)
-    local mapValue = MAP_VALUE and MAP_VALUE[value]
-
-    if mapValue then
+    local value = nil
+    local mapValue = nil
+    if mapValue = nil then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+            print("Overworld or unknown map value: ", value)
+        end
+    else
+        value = ReadU8(segment, 0x0048)
+        mapValue = MAP_VALUE and MAP_VALUE[value]
         -- Split by '/' and process each map name/tab
         for str in string.gmatch(mapValue, "([^/]+)") do
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -58,10 +63,6 @@ function updateCurrentMap(segment)
         end
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
             print(string.format("Value: %x --- Map: %s", value, mapValue))
-        end
-    else
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print("Overworld or unknown map value: ", value)
         end
     end
 end
