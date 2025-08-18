@@ -24,7 +24,7 @@ else
     Tracker:AddLocations("locations/overworld.json")
 end
 
-Tracker:AddLayouts("layouts/standard/shared.json")
+Tracker:AddLayouts("layouts/shared.json")
 if Tracker.ActiveVariantUID == "shardHunt" then
   Tracker:AddLayouts("layouts/shardHunt/tracker.json")
   Tracker:AddLayouts("layouts/shardHunt/broadcast.json")
