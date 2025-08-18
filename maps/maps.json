@@ -15,25 +15,37 @@
         "name": "con_castle",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/concastle.png"
+        "img": "images/maps/con_castle.png"
     },
     {
-        "name": "elfcastle",
+        "name": "elf_castle",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/elfcastle.png"
+        "img": "images/maps/elf_castle.png"
     },
     {
-        "name": "nwcastle",
+        "name": "nw_castle",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/nwcastle.png"
+        "img": "images/maps/nw_castle.png"
     },
     {
-        "name": "ordeals",
+        "name": "ordeals1F",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/ordeals.png"
+        "img": "images/maps/ordeals1F.png"
+    },
+    {
+        "name": "ordeals2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ordeals2F.png"
+    },
+    {
+        "name": "ordeals3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/ordeals3F.png"
     },
     {
         "name": "waterfall",
@@ -66,123 +78,243 @@
         "img": "images/maps/cardia.png"
     },
     {
-        "name": "marshb1",
+        "name": "bahamut",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/marshb1.png"
+        "img": "images/maps/bahamut.png"
     },
     {
-        "name": "marshb3",
+        "name": "marshB1",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/marshb3.png"
+        "img": "images/maps/marshB1.png"
     },
     {
-        "name": "ice1",
+        "name": "marshB2",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/ice1.png"
+        "img": "images/maps/marshB2.png"
     },
     {
-        "name": "ice2",
+        "name": "marshB3",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/ice2.png"
+        "img": "images/maps/marshB3.png"
     },
     {
-        "name": "ice3",
+        "name": "iceB1",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/ice3.png"
+        "img": "images/maps/iceB1.png"
     },
     {
-        "name": "earth1f",
+        "name": "iceB2",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/earth1f.png"
+        "img": "images/maps/iceB2.png"
     },
     {
-        "name": "earth2f",
+        "name": "iceB3",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/earth2f.png"
+        "img": "images/maps/iceB3.png"
     },
     {
-        "name": "earth3f",
+        "name": "earthB1",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/earth3f.png"
+        "img": "images/maps/earthB1.png"
     },
     {
-        "name": "earth4f",
+        "name": "earthB2",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/earth4f.png"
+        "img": "images/maps/earthB2.png"
     },
     {
-        "name": "earth5f",
+        "name": "earthB3",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/earth5f.png"
+        "img": "images/maps/earthB3.png"
     },
     {
-        "name": "",
+        "name": "earthB4",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/earthB4.png"
     },
     {
-        "name": "",
+        "name": "earthB5",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/earthB5.png"
     },
     {
-        "name": "",
+        "name": " volcB1",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/volcB1.png"
     },
     {
-        "name": "",
+        "name": "volcB2",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/volcB2.png"
     },
     {
-        "name": "",
+        "name": "volcB3",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/volcB3.png"
     },
     {
-        "name": "",
+        "name": "volcB4",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/volcB4.png"
     },
     {
-        "name": "",
+        "name": "volcB5",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/volcB5.png"
     },
     {
-        "name": "",
+        "name": "seaB5",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/seaB5.png"
     },
     {
-        "name": "",
+        "name": "seaB4",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/seaB4.png"
     },
     {
-        "name": "",
+        "name": "seaB3",
         "location_size": 24,
         "location_border_thickness": 3,
-        "img": "images/maps/.png"
+        "img": "images/maps/seaB3.png"
+    },
+    {
+        "name": "seaB2",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/seaB2.png"
+    },
+    {
+        "name": "seaB1",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/seaB1.png"
+    },
+    {
+        "name": "mirage1F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/mirage1F.png"
+    },
+    {
+        "name": "mirage2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/mirage2F.png"
+    },
+    {
+        "name": "mirage3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/mirage3F.png"
+    },
+    {
+        "name": "sky1F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky1F.png"
+    },
+    {
+        "name": "sky2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky2F.png"
+    },
+    {
+        "name": "sky3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky3F.png"
+    },
+    {
+        "name": "sky4F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky4F.png"
+    },
+    {
+        "name": "sky5F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/sky5F.png"
+    },
+    {
+        "name": "tof",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tof.png"
+    },
+    {
+        "name": "tofr1F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofr1F.png"
+    },
+    {
+        "name": "tofr2F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofr2F.png"
+    },
+    {
+        "name": "tofr3F",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofr3F.png"
+    },
+    {
+        "name": "tofrEarth",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrEarth.png"
+    },
+    {
+        "name": "tofrFire",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrFire.png"
+    },
+    {
+        "name": "tofrWater",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrWater.png"
+    },
+    {
+        "name": "tofrAir",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrAir.png"
+    },
+    {
+        "name": "tofrChaos",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/tofrChaos.png"
+    },
+    {
+        "name": "titan",
+        "location_size": 24,
+        "location_border_thickness": 3,
+        "img": "images/maps/titan.png"
     }
 ]
