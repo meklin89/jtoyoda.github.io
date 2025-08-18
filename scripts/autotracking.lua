@@ -612,5 +612,5 @@ end
 
 -- I know this is bad practice but the amount of resets makes it so all the sanity
 -- checking needs to be done on the segment
---ScriptHost:AddMemoryWatch("FFR Data", 0x6000, 0x300, updateItemsFromMemorySegment)
+ScriptHost:AddMemoryWatch("FFR Data", 0x6000, 0x300, updateItemsFromMemorySegment)
 ScriptHost:AddMemoryWatch("FFR Map Data", 0x0048, 0x1, updateCurrentMap)
