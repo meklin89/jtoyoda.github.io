@@ -1,5 +1,5 @@
 {
-	"Other" : {
+	"other" : {
 		"type" : "container",
 		"background" : "#5f6393",
 		"content" : [
@@ -174,3 +174,4 @@
       ]
     }
   }
+
