@@ -8,75 +8,75 @@
 									"tabs" : [
 										{
 											"title" : "Coneria Castle",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "con_castle" ]
 												}
-											]
+											
 										},
 										{
 											"title" : "Matoya's Cave",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "matoya" ]
 												}
-											]
+											
 										},
 										{
 											"title" : "Elf Castle",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "elf_castle" ]
 												}
-											]
+											
 										},
 										{
 											"title" : "Northwest Castle",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "nw_castle" ]
 												}
-											]
+											
 										},
 										{
 											"title" : "Dwarf Cave",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "dwarves" ]
 												}
-											]
+											
 										},
 										{
 											"title" : "Sarda's Cave",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "sarda" ]
 												}
-											]
+											
 										},
 										{
 											"title" : "Waterfall",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "waterfall" ]
 												}
-											]
+											
 										},
 										{
 											"title" : "Titan's Tunnel",
-											"content" : [
+											"content" : 
 												{
 													"type" : "map",
 													"maps" : [ "titans" ]
 												}
-											]
+											
 										}
                     				]
                 }
@@ -175,6 +175,7 @@
     }
   }
 }
+
 
 
 
