@@ -1,5 +1,5 @@
 {
-	"other" : {
+	"other_locations" : {
 		"type" : "container",
 		"background" : "#5f6393",
 		"content" : [
@@ -166,15 +166,16 @@
               "title" : "Other",
               "content" : {
                 "type" : "layout",
-                "key" : "other"
+                "key" : "other_locations"
               }
-            }
+            },
           ]
         }
       ]
     }
   }
 }
+
 
 
 
