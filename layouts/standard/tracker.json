@@ -1,4 +1,112 @@
 {
+	"fiends" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+	"earth" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+	"volcano" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+	"sea" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+	"sky" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+	"tof" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+	"caves_and_dungeons" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+
+	"marsh" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+
+
+	"ice" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+
+
+	"ordeals" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					
+
+
+
+
+
 	"other_locations" : {
 		"type" : "container",
 		"background" : "#5f6393",
