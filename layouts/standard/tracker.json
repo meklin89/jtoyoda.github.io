@@ -3,86 +3,69 @@
 		"type" : "container",
 		"background" : "#5f6393",
 		"content" : [
-                {
-                  					"type" : "tabbed",
-									"tabs" : [
-										{
-											"title" : "Coneria Castle",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "con_castle" ]
-												}
-											
-										},
-										{
-											"title" : "Matoya's Cave",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "matoya" ]
-												}
-											
-										},
-										{
-											"title" : "Elf Castle",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "elf_castle" ]
-												}
-											
-										},
-										{
-											"title" : "Northwest Castle",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "nw_castle" ]
-												}
-											
-										},
-										{
-											"title" : "Dwarf Cave",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "dwarves" ]
-												}
-											
-										},
-										{
-											"title" : "Sarda's Cave",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "sarda" ]
-												}
-											
-										},
-										{
-											"title" : "Waterfall",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "waterfall" ]
-												}
-											
-										},
-										{
-											"title" : "Titan's Tunnel",
-											"content" : 
-												{
-													"type" : "map",
-													"maps" : [ "titans" ]
-												}
-											
-										}
-                    				]
-                }
-          ]
-    },
-  
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					{
+						"title" : "Coneria Castle",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "con_castle" ]
+						}
+					},
+					{
+						"title" : "Matoya's Cave",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "matoya" ]
+						}
+					},
+					{
+						"title" : "Elf Castle",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "elf_castle" ]
+						}
+					},
+					{
+						"title" : "Northwest Castle",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "nw_castle" ]
+						}
+					},
+					{
+						"title" : "Dwarf Cave",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "dwarves" ]
+						}
+					},
+					{
+						"title" : "Sarda's Cave",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "sarda" ]
+						}
+					},
+					{
+						"title" : "Waterfall",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "waterfall" ]
+						}
+					},
+					{
+						"title" : "Titan's Tunnel",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "titans" ]
+						}
+					}
+				]
+			}
+		]
+	},
 	"tracker_default" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -162,21 +145,16 @@
 								"maps" : [ "overworld" ]
 							}
 						},
-            {
-              "title" : "Other",
-              "content" : {
-                "type" : "layout",
-                "key" : "other_locations"
-              }
-            },
-          ]
-        }
-      ]
-    }
-  }
+						{
+							"title" : "Other",
+							"content" : {
+								"type" : "layout",
+								"key" : "other_locations"
+							}
+						},
+					]
+				}
+			]
+		}
+	}
 }
-
-
-
-
-
