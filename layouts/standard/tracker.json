@@ -101,7 +101,31 @@
 			{
 				"type" : "tabbed",
 				"tabs" : [
-					
+					{
+						"title" : "Ordeals 1F",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "ordeals1f" ]
+						}
+					},
+					{
+						"title" : "Ordeals 2F",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "ordeals2f" ]
+						}
+					},
+					{
+						"title" : "Ordeals 3F",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "ordeals3f" ]
+						}
+					},
+				]
+			}
+		]
+	}
 
 
 
