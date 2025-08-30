@@ -66,6 +66,38 @@
 			{
 				"type" : "tabbed",
 				"tabs" : [
+					{
+						"title" : "Marsh Cave",
+						"content" : {
+							"type" : "layout",
+							"key" : "marsh"
+						}
+					},
+					{
+						"title" : "Ice Cave",
+						"content" : {
+							"type" : "layout",
+							"key" : "ice"
+						}
+					},
+					{
+						"title" : "Temple of Ordeals",
+						"content" : {
+							"type" : "layout",
+							"key" : "ordeals"
+						}
+					}
+				]
+			}
+		]
+	},
+					{
+						"title" : ",
+						"content" : {
+							"type" : "layout",
+							"key" : "
+						}
+					},
 					
 
 
@@ -87,6 +119,7 @@
 		"background" : "#5f6393",
 		"content" : [
 			{
+			 "title" : 
 				"type" : "tabbed",
 				"tabs" : [
 					
@@ -275,6 +308,13 @@
 							"content" : {
 								"type" : "map",
 								"maps" : [ "overworld" ]
+							}
+						},
+						{
+							"title" : "Caves and Dungeons",
+							"content" : {
+								"type" : "layout",
+								"key" : "caves_and_dungeons"
 							}
 						},
 						{
