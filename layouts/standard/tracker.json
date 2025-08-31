@@ -1,14 +1,4 @@
 {
-	"fiends" : {
-		"type" : "container",
-		"background" : "#5f6393",
-		"content" : [
-			{
-				"type" : "tabbed",
-				"tabs" : [
-					
-
-
 	"earth" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -16,9 +6,45 @@
 			{
 				"type" : "tabbed",
 				"tabs" : [
-					
-
-
+					{
+						"title" : "Earth Cave B1",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "earthB1" ]
+						}
+					},
+					{
+						"title" : "Earth Cave B2",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "earthB2" ]
+						}
+					},
+					{
+						"title" : "Earth Cave B3",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "earthB3" ]
+						}
+					},
+					{
+						"title" : "Earth Cave B4",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "earthB4" ]
+						}
+					},
+					{
+						"title" : "Earth Cave B5",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "earthB5" ]
+						}
+					}
+				]
+			}
+		]
+	},
 	"volcano" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -26,9 +52,45 @@
 			{
 				"type" : "tabbed",
 				"tabs" : [
-					
-
-
+					{
+						"title" : "Gurgu Volcano B1",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "volcanoB1" ]
+						}
+					},
+					{
+						"title" : "Gurgu Volcano B2",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "volcanoB2" ]
+						}
+					},
+					{
+						"title" : "Gurgu Volcano B3",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "volcanoB3" ]
+						}
+					},
+					{
+						"title" : "Gurgu Volcano B4",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "volcanoB4" ]
+						}
+					},
+					{
+						"title" : "Gurgu Volcano B5",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "volcanoB5" ]
+						}
+					}
+				]
+			}
+		]
+	},
 	"sea" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -36,9 +98,38 @@
 			{
 				"type" : "tabbed",
 				"tabs" : [
-					
-
-
+					{
+						"title" : "Sea Shrine B4",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "seaB4" ]
+						}
+					},
+					{
+						"title" : "Sea Shrine B3",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "seaB3" ]
+						}
+					},
+					{
+						"title" : "Sea Shrine B2",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "seaB2" ]
+						}
+					},
+					{
+						"title" : "Sea Shrine B1",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "seaB1" ]
+						}
+					}
+				]
+			}
+		]
+	},
 	"sky" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -46,9 +137,66 @@
 			{
 				"type" : "tabbed",
 				"tabs" : [
-					
-
-
+					{
+						"title" : "Mirage Tower 1F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "mirage1F" ]
+						}
+					},
+					{
+						"title" : "Mirage Tower 2F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "mirage2F" ]
+						}
+					},
+					{
+						"title" : "Mirage Tower 3F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "mirage3F" ]
+						}
+					},
+					{
+						"title" : "Sky Palace 1F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "sky1F" ]
+						}
+					},
+					{
+						"title" : "Sky Palace 2F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "sky2F" ]
+						}
+					},
+					{
+						"title" : "Sky Palace 3F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "sky3F" ]
+						}
+					},
+					{
+						"title" : "Sky Palace 4F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "sky4F" ]
+						}
+					},
+					{
+						"title" : "Sky Palace 5F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "sky5F" ]
+						}
+					}
+				]
+			}
+		]
+	},
 	"tof" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -56,9 +204,211 @@
 			{
 				"type" : "tabbed",
 				"tabs" : [
-					
-
-
+					{
+						"title" : "Temple of Fiends",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tof" ]
+						}
+					},
+					{
+						"title" : "ToFR 1F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofr1F" ]
+						}
+					},
+					{
+						"title" : "ToFR 2F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofr2F" ]
+						}
+					},
+					{
+						"title" : "ToFR 3F",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofr3F" ]
+						}
+					},
+					{
+						"title" : "ToFR Earth",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofrEarth" ]
+						}
+					},
+					{
+						"title" : "ToFR Fire",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofrFire" ]
+						}
+					},
+					{
+						"title" : "ToFR Water",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofrWater" ]
+						}
+					},
+					{
+						"title" : "ToFR Air",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofrAir" ]
+						}
+					},
+					{
+						"title" : "ToFR Chaos",
+						"content" : {
+							"type" : "maps",
+							"maps" : [ "tofrChaos" ]
+						}
+					}
+				]
+			}
+		]
+	},
+	"fiends" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					{
+						"title" : "Earth Cave",
+						"content" : {
+							"type" : "layout",
+							"key" : "earth"
+						}
+					},
+					{
+						"title" : "Gurgu Volcano",
+						"content" : {
+							"type" : "layout",
+							"key" : "volcano"
+						}
+					},
+					{
+						"title" : "Sea Shrine",
+						"content" : {
+							"type" : "layout",
+							"key" : "sea"
+						}
+					},
+					{
+						"title" : "Sky Palace",
+						"content" : {
+							"type" : "layout",
+							"key" : "sky"
+						}
+					},
+					{
+						"title" : "Temple of Fiends",
+						"content" : {
+							"type" : "layout",
+							"key" : "tof"
+						}
+					}
+				]
+			}
+		]
+	},
+	"marsh" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					{
+						"title" : "Marsh Split",
+						"content" : {
+							"type" : "layout",
+							"maps" : [ "marshB1" ]
+						}
+					},{
+						"title" : "Marsh Cave B1",
+						"content" : {
+							"type" : "layout",
+							"maps" : [ "marshB2" ]
+						}
+					},{
+						"title" : "Marsh Cave B2",
+						"content" : {
+							"type" : "layout",
+							"maps" : [ "marshB3" ]
+						}
+					}
+				]
+			}
+		]
+	},
+	"ice" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					{
+						"title" : "Ice Cave - Exit Floor",
+						"content" : {
+							"type" : "layout",
+							"maps" : [ "iceB1" ]
+						}
+					},{
+						"title" : "Ice Cave - Incentive Room",
+						"content" : {
+							"type" : "layout",
+							"maps" : [ "iceB2" ]
+						}
+					},{
+						"title" : "Ice Cave - Bottom Floor",
+						"content" : {
+							"type" : "layout",
+							"maps" : [ "iceB3" ]
+						}
+					}
+				]
+			}
+		]
+	},
+	"ordeals" : {
+		"type" : "container",
+		"background" : "#5f6393",
+		"content" : [
+			{
+				"type" : "tabbed",
+				"tabs" : [
+					{
+						"title" : "Ordeals 1F",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "ordeals1f" ]
+						}
+					},
+					{
+						"title" : "Ordeals 2F",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "ordeals2f" ]
+						}
+					},
+					{
+						"title" : "Ordeals 3F",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "ordeals3f" ]
+						}
+					}
+				]
+			}
+		]
+	},
 	"caves_and_dungeons" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -91,79 +441,6 @@
 			}
 		]
 	},
-					{
-						"title" : ",
-						"content" : {
-							"type" : "layout",
-							"key" : "
-						}
-					},
-					
-
-
-
-	"marsh" : {
-		"type" : "container",
-		"background" : "#5f6393",
-		"content" : [
-			{
-				"type" : "tabbed",
-				"tabs" : [
-					
-
-
-
-
-	"ice" : {
-		"type" : "container",
-		"background" : "#5f6393",
-		"content" : [
-			{
-			 "title" : 
-				"type" : "tabbed",
-				"tabs" : [
-					
-
-
-
-
-	"ordeals" : {
-		"type" : "container",
-		"background" : "#5f6393",
-		"content" : [
-			{
-				"type" : "tabbed",
-				"tabs" : [
-					{
-						"title" : "Ordeals 1F",
-						"content" : {
-							"type" : "map",
-							"maps" : [ "ordeals1f" ]
-						}
-					},
-					{
-						"title" : "Ordeals 2F",
-						"content" : {
-							"type" : "map",
-							"maps" : [ "ordeals2f" ]
-						}
-					},
-					{
-						"title" : "Ordeals 3F",
-						"content" : {
-							"type" : "map",
-							"maps" : [ "ordeals3f" ]
-						}
-					},
-				]
-			}
-		]
-	}
-
-
-
-
-
 	"other_locations" : {
 		"type" : "container",
 		"background" : "#5f6393",
@@ -311,6 +588,13 @@
 							}
 						},
 						{
+							"title" : "Fiend Dungeon",
+							"content" : {
+								"type" : "layout",
+								"key" : "fiends"
+							}
+						},
+						{
 							"title" : "Caves and Dungeons",
 							"content" : {
 								"type" : "layout",
@@ -323,10 +607,11 @@
 								"type" : "layout",
 								"key" : "other_locations"
 							}
-						},
+						}
 					]
 				}
 			]
 		}
 	}
 }
+
