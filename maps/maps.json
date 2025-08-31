@@ -150,31 +150,31 @@
         "img": "images/maps/earthB5.png"
     },
     {
-        "name": "volcB1",
+        "name": "volcanoB1",
         "location_size": 24,
         "location_border_thickness": 3,
         "img": "images/maps/volcB1.png"
     },
     {
-        "name": "volcB2",
+        "name": "volcanoB2",
         "location_size": 24,
         "location_border_thickness": 3,
         "img": "images/maps/volcB2.png"
     },
     {
-        "name": "volcB3",
+        "name": "volcanoB3",
         "location_size": 24,
         "location_border_thickness": 3,
         "img": "images/maps/volcB3.png"
     },
     {
-        "name": "volcB4",
+        "name": "volcanoB4",
         "location_size": 24,
         "location_border_thickness": 3,
         "img": "images/maps/volcB4.png"
     },
     {
-        "name": "volcB5",
+        "name": "volcanoB5",
         "location_size": 24,
         "location_border_thickness": 3,
         "img": "images/maps/volcB5.png"
