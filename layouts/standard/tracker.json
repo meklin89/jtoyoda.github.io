@@ -327,19 +327,19 @@
 					{
 						"title" : "Marsh Split",
 						"content" : {
-							"type" : "layout",
+							"type" : "map",
 							"maps" : [ "marshB1" ]
 						}
 					},{
 						"title" : "Marsh Cave B1",
 						"content" : {
-							"type" : "layout",
+							"type" : "map",
 							"maps" : [ "marshB2" ]
 						}
 					},{
 						"title" : "Marsh Cave B2",
 						"content" : {
-							"type" : "layout",
+							"type" : "map",
 							"maps" : [ "marshB3" ]
 						}
 					}
@@ -357,19 +357,21 @@
 					{
 						"title" : "Ice Cave - Exit Floor",
 						"content" : {
-							"type" : "layout",
+							"type" : "map",
 							"maps" : [ "iceB1" ]
 						}
-					},{
+					},
+					{
 						"title" : "Ice Cave - Incentive Room",
 						"content" : {
-							"type" : "layout",
+							"type" : "map",
 							"maps" : [ "iceB2" ]
 						}
-					},{
+					},
+					{
 						"title" : "Ice Cave - Bottom Floor",
 						"content" : {
-							"type" : "layout",
+							"type" : "map",
 							"maps" : [ "iceB3" ]
 						}
 					}
@@ -614,4 +616,5 @@
 		}
 	}
 }
+
 
