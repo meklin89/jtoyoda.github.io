@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Sea Shrine B5",
+		"color": "#808080",
+		"children": [
+			{
+				"name": "Garland",
+				"access_rules": [ ],
+				"sections": [
+					{
+						"name": "Defeat",
+						"access_rules": [ ],
+						"hosted_item": "garland"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 500,
+						"y": 500
+					}
+				]
+			},
