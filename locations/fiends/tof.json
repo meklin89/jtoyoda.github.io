@@ -1,11 +1,77 @@
 [
 	{
-		"name": "Temple of Fiends / Revisited",
+		"name": "Temple of Fiends",
 		"color": "#808080",
 		"children": [
 			{
-				"name": "Temple of Fiends",
+				"name": "Garland",
 				"access_rules": [ ],
 				"sections": [
 					{
-						"name": "
+						"name": "Defeat",
+						"access_rules": [ ],
+						"hosted_item": "garland"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 500,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Unlocked Single",
+				"access_rules": [ ],
+				"sections": [
+					{
+						"name": "1",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 500,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Unlocked Duo",
+				"access_rules": [ ],
+				"sections": [
+					{
+						"name": "1",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 500,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Unlocked Duo",
+				"access_rules": [ ],
+				"sections": [
+					{
+						"name": "1",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 500,
+						"y": 500
+					}
+				]
+			},
