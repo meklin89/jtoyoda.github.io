@@ -99,6 +99,13 @@
 				"type" : "tabbed",
 				"tabs" : [
 					{
+						"title" : "Sea Shrine B5",
+						"content" : {
+							"type" : "map",
+							"maps" : [ "seaB5" ]
+						}
+					},
+					{
 						"title" : "Sea Shrine B4",
 						"content" : {
 							"type" : "map",
@@ -590,7 +597,7 @@
 							}
 						},
 						{
-							"title" : "Fiend Dungeon",
+							"title" : "Fiend Dungeons",
 							"content" : {
 								"type" : "layout",
 								"key" : "fiends"
@@ -616,6 +623,7 @@
 		}
 	}
 }
+
 
 
 
