@@ -9,35 +9,35 @@
 					{
 						"title" : "Earth Cave B1",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "earthB1" ]
 						}
 					},
 					{
 						"title" : "Earth Cave B2",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "earthB2" ]
 						}
 					},
 					{
 						"title" : "Earth Cave B3",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "earthB3" ]
 						}
 					},
 					{
 						"title" : "Earth Cave B4",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "earthB4" ]
 						}
 					},
 					{
 						"title" : "Earth Cave B5",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "earthB5" ]
 						}
 					}
@@ -55,35 +55,35 @@
 					{
 						"title" : "Gurgu Volcano B1",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "volcanoB1" ]
 						}
 					},
 					{
 						"title" : "Gurgu Volcano B2",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "volcanoB2" ]
 						}
 					},
 					{
 						"title" : "Gurgu Volcano B3",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "volcanoB3" ]
 						}
 					},
 					{
 						"title" : "Gurgu Volcano B4",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "volcanoB4" ]
 						}
 					},
 					{
 						"title" : "Gurgu Volcano B5",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "volcanoB5" ]
 						}
 					}
@@ -101,28 +101,28 @@
 					{
 						"title" : "Sea Shrine B4",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "seaB4" ]
 						}
 					},
 					{
 						"title" : "Sea Shrine B3",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "seaB3" ]
 						}
 					},
 					{
 						"title" : "Sea Shrine B2",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "seaB2" ]
 						}
 					},
 					{
 						"title" : "Sea Shrine B1",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "seaB1" ]
 						}
 					}
@@ -140,56 +140,56 @@
 					{
 						"title" : "Mirage Tower 1F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "mirage1F" ]
 						}
 					},
 					{
 						"title" : "Mirage Tower 2F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "mirage2F" ]
 						}
 					},
 					{
 						"title" : "Mirage Tower 3F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "mirage3F" ]
 						}
 					},
 					{
 						"title" : "Sky Palace 1F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "sky1F" ]
 						}
 					},
 					{
 						"title" : "Sky Palace 2F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "sky2F" ]
 						}
 					},
 					{
 						"title" : "Sky Palace 3F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "sky3F" ]
 						}
 					},
 					{
 						"title" : "Sky Palace 4F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "sky4F" ]
 						}
 					},
 					{
 						"title" : "Sky Palace 5F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "sky5F" ]
 						}
 					}
@@ -207,63 +207,63 @@
 					{
 						"title" : "Temple of Fiends",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tof" ]
 						}
 					},
 					{
 						"title" : "ToFR 1F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofr1F" ]
 						}
 					},
 					{
 						"title" : "ToFR 2F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofr2F" ]
 						}
 					},
 					{
 						"title" : "ToFR 3F",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofr3F" ]
 						}
 					},
 					{
 						"title" : "ToFR Earth",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofrEarth" ]
 						}
 					},
 					{
 						"title" : "ToFR Fire",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofrFire" ]
 						}
 					},
 					{
 						"title" : "ToFR Water",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofrWater" ]
 						}
 					},
 					{
 						"title" : "ToFR Air",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofrAir" ]
 						}
 					},
 					{
 						"title" : "ToFR Chaos",
 						"content" : {
-							"type" : "maps",
+							"type" : "map",
 							"maps" : [ "tofrChaos" ]
 						}
 					}
@@ -616,5 +616,6 @@
 		}
 	}
 }
+
 
 
