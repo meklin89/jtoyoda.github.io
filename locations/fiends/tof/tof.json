@@ -77,7 +77,7 @@
 			},
 			{
 				"name": "Locked Single",
-				"access_rules": [ ],
+				"access_rules": [ "key" ],
 				"sections": [
 					{
 						"name": "1",
@@ -95,7 +95,7 @@
 			},
 			{
 				"name": "Locked Duo",
-				"access_rules": [ ],
+				"access_rules": [ "key" ],
 				"sections": [
 					{
 						"name": "1",
@@ -113,7 +113,7 @@
 			},
 			{
 				"name": "Locked Duo",
-				"access_rules": [ ],
+				"access_rules": [ "key" ],
 				"sections": [
 					{
 						"name": "2",
