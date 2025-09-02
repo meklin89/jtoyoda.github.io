@@ -59,6 +59,8 @@ else
   Tracker:AddLayouts("layouts/standard/standard_broadcast.json")
 end
 
+ScriptHost:LoadScript("scripts/addMaps.lua")
+
 -- Default Flags
 local progressionFlag = Tracker:FindObjectForCode("progressionFlag")
 progressionFlag.CurrentStage = 1
