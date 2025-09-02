@@ -259,8 +259,8 @@
     },
     {
         "name": "tof",
-        "location_size": 16,
-        "location_border_thickness": 3,
+        "location_size": 20,
+        "location_border_thickness": 2,
         "img": "images/maps/tof.png"
     },
     {
