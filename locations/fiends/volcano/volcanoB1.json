@@ -1,23 +1,286 @@
 [
 	{
-		"name": "Gurgu Volcano B1",
+		"name": "Gurgu Volcano B2",
 		"color": "#808080",
 		"children": [
 			{
-				"name": "Garland",
-				"access_rules": [ ],
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
 				"sections": [
 					{
-						"name": "Defeat",
-						"access_rules": [ ],
-						"hosted_item": "garland"
+						"name": "Armory 1",
+						"access_rules": [],
+						"item_count": 1,
+					
+				
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 111,
+						"y": 563
+					}
+				]
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 2",
+						"access_rules": [],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
 					{
-						"map": "tof",
-						"x": 500,
-						"y": 500
+						"map": "volcanoB2",
+						"x": 95,
+						"y": 595
 					}
 				]
 			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 3",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 111,
+						"y": 595
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 4",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 159,
+						"y": 563
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 5",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 200,
+						"y": 625
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 6",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 143,
+						"y": 595
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 7",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 159,
+						"y": 595
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 8",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 175,
+						"y": 595
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 9",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 191,
+						"y": 579
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 10",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 175,
+						"y": 563
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 11",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 175,
+						"y": 547
+					}
+				]
+			},
+			{
+				"name": "Armory Floor (B1)",
+				"access_rules": [
+					"airship",
+					"openProgression,canoe",
+					"extendedOpen,canoe",
+					"ship,canoe"
+				],
+				"sections": [
+					{
+						"name": "Armory 12",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "volcanoB2",
+						"x": 127,
+						"y": 547
+					}
+				]
+			}
+		]
+	}
+]
