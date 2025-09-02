@@ -8,7 +8,7 @@
 				"access_rules": [ ],
 				"sections": [
 					{
-						"name": "Defeat",
+						"name": "Defeat and save the Princess",
 						"access_rules": [ ],
 						"hosted_item": "garland"
 					}
@@ -16,17 +16,17 @@
 				"map_locations": [
 					{
 						"map": "tof",
-						"x": 404,
-						"y": 342
+						"x": 405,
+						"y": 341
 					}
 				]
 			},
 			{
-				"name": "Unlocked Single",
+				"name": "Unlocked Single 1",
 				"access_rules": [ ],
 				"sections": [
 					{
-						"name": "1",
+						"name": "Unlocked Single 1",
 						"access_rules": [],
 						"item_count": 1
 					}
@@ -34,26 +34,8 @@
 				"map_locations": [
 					{
 						"map": "tof",
-						"x": 116,
-						"y": 522
-					}
-				]
-			},
-			{
-				"name": "Unlocked Duo",
-				"access_rules": [ ],
-				"sections": [
-					{
-						"name": "1",
-						"access_rules": [],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "tof",
-						"x": 116,
-						"y": 58
+						"x": 117,
+						"y": 521
 					}
 				]
 			},
@@ -62,7 +44,7 @@
 				"access_rules": [ ],
 				"sections": [
 					{
-						"name": "2",
+						"name": "Unlocked Duo 1",
 						"access_rules": [],
 						"item_count": 1
 					}
@@ -70,8 +52,26 @@
 				"map_locations": [
 					{
 						"map": "tof",
-						"x": 132,
-						"y": 58
+						"x": 117,
+						"y": 57
+					}
+				]
+			},
+			{
+				"name": "Unlocked Duo 2",
+				"access_rules": [ ],
+				"sections": [
+					{
+						"name": "Unlocked Duo 2",
+						"access_rules": [],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tof",
+						"x": 133,
+						"y": 57
 					}
 				]
 			},
@@ -88,8 +88,8 @@
 				"map_locations": [
 					{
 						"map": "tof",
-						"x": 708,
-						"y": 522
+						"x": 709,
+						"y": 521
 					}
 				]
 			},
@@ -106,8 +106,8 @@
 				"map_locations": [
 					{
 						"map": "tof",
-						"x": 692,
-						"y": 58
+						"x": 693,
+						"y": 57
 					}
 				]
 			},
@@ -124,8 +124,8 @@
 				"map_locations": [
 					{
 						"map": "tof",
-						"x": 708,
-						"y": 58
+						"x": 709,
+						"y": 57
 					}
 				]
 			}
