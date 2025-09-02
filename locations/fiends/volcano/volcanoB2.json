@@ -20,7 +20,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "volcanoB2",
 						"x": 431,
 						"y": 595
 					}
@@ -43,7 +43,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "volcanoB2",
 						"x": 415,
 						"y": 435
 					}
@@ -66,7 +66,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "volcanoB2",
 						"x": 495,
 						"y": 339
 					}
@@ -89,7 +89,7 @@
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "volcanoB2",
 						"x": 303,
 						"y": 339
 					}
@@ -128,14 +128,14 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "Vertpins 2",
 						"access_rules": [],
 						"item_count": 1
 					}
 				],
 				"map_locations": [
 					{
-						"map": "",
+						"map": "volcanoB2",
 						"x": 191,
 						"y": 195
 					}
